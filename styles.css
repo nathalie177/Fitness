@@ -1,0 +1,115 @@
+        
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+             
+       header{
+        text-align: center;
+        padding: 25px;   
+        background-color: rgb(152, 190, 199);
+        margin: 0 auto;
+        padding: 30px 20px;
+        }
+
+        body{
+        background-color: rgba(#f1f1f1);
+        }
+
+        footer{
+            text-align: bottom;
+            padding: 25px;   
+            background-color: rgb(152, 190, 199);
+            margin: 0 auto;
+            padding: 30px 20px;
+            }
+        
+        
+        .h1{
+            color: rgb(34, 105, 163);
+            font-size: 50px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+          }
+          .h1:hover{
+          color: rgb(100, 177, 177);
+          font-size: 50px;
+          }
+
+          .seitenname{
+
+          color: rgb(22, 25, 194);
+          text-decoration: none;
+
+          }
+          .seitenname:hover{
+          color: rgba(214, 63, 181, 0.308);
+          }
+      
+        .header{
+            display: flex;
+            text-align:left;
+            justify-content: space-around;
+        }
+
+        .maps_link{
+            width: 30px;
+            height: 20px;
+            object-fit: left;
+            margin-right: 250px;
+        }
+
+        .basic_tarif{
+            justify-content: center;
+            object-fit: cover;
+            width: 30%;
+            height: 30%;
+            background-color: rgb(116, 179, 165);
+            padding: auto;
+            padding: 10px;
+        }
+
+        .tarife{
+            display: flex;
+            text-align:center;
+            justify-content: space-around;
+            
+        }
+
+        
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;     
+        }
+
+       a {
+            color: rgb(43, 122, 226);
+            text-decoration: none;
+            margin-left: 16px;
+            font-size: 25px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        a:hover {
+            color: rgba(43, 122, 226, 0.308);
+            font-size: 26px;
+        }
+
+        .footer {
+            padding: 8px;
+        }
+
+        .legal_text{
+            position: absolute;
+            left: 45%;
+            color:rgb(43, 122, 226);
+            font-size: 20px;
+            margin-right: 16px;
+        }
+
+   
